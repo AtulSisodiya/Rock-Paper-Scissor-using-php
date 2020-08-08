@@ -17,8 +17,8 @@ function check($computer, $human)
 }
 
     $host = $_SERVER['HTTP_HOST'];
-    $ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-    $url = "http://$host$ruta"; 
+    $root = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+    $url = "http://$host$root"; 
 
 if (!isset($_GET["name"]) || strlen($_GET["name"]) < 1) {
     die("Name parameter missing");
