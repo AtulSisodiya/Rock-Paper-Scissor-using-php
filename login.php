@@ -1,8 +1,8 @@
 <?php
  
     $host = $_SERVER['HTTP_HOST'];
-    $ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-    $url = "http://$host$ruta"; // ruta completa construida
+    $root = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+    $url = "http://$host$root";
 
 if (isset($_POST["cancel"])) {
     header("Location: $url/index.php");
