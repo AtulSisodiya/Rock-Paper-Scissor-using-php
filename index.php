@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Atul Sisodiya 8e3ecc6d</title>
+<title>Rock Paper Scissor</title>
 </head>
 <body>
 <div class="container">
@@ -14,10 +14,7 @@
 <p>
 Attempt to go to 
 <a href="game.php">game.php</a> without logging in - it should fail with an error message.
-<p>
-<a href="http://www.wa4e.com/code/rps.zip"
- target="_blank">Source Code for this Application</a>
-</p>
+
 
 </div>
 </body>
