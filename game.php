@@ -75,3 +75,5 @@ if (isset($_POST["human"]) && $_POST["human"] != -1 && is_numeric($_POST["human"
 ?>
 </body>
 </html>
+
+<!-- Add more player--!>
